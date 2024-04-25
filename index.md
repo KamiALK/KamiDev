@@ -94,7 +94,7 @@ end
 
 ### Large image
 
-![logo](./thumbnail.png)
+![logo](./thumbnail.png) hola como estas en este sitio,quieres saber algo de programacion
 
 ### Definition lists can be used with HTML syntax.
 
