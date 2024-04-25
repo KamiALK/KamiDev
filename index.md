@@ -96,6 +96,11 @@ end
 
 ![logo](./thumbnail.png) hhhhhhola como estas en este sitio,quieres saber algo de programacion ola como estas en este sitio,quieres saber algo de programacion ola como estas en este sitio,quieres saber algo de programacion ola como estas en este sitio,quieres saber algo de programacion ola como estas en este sitio,quieres saber algo de programacion ola como estas en este sitio,quieres saber algo de programacion
 
+<div>
+<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<a href = "https://www.paypal.me/asabeneh"><img src='./thumbnail.png' alt='Paypal Logo' style="width:10%"/></a>
+</div>
+
 ### Definition lists can be used with HTML syntax.
 
 <dl>
