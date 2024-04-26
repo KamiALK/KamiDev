@@ -98,7 +98,7 @@ end
 
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
-<a href = "https://www.paypal.me/asabeneh"><img src='./thumbnail.png' alt='Paypal Logo' style="width:10%"/></a>
+<a href = "https://www.paypal.me/asabeneh"><img src='./thumbnail.png' alt='Paypal Logo' style="width:80%"/></a>
 </div>
 
 ### Definition lists can be used with HTML syntax.
