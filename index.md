@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+
 # kamialk Project
 
 The SAFB Referee Academy needed a tool to assess the referee's performance.
