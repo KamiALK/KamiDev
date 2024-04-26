@@ -14,7 +14,10 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 <a href="https://github.com/KamiALK" class="btn" style="background-color: #000000;">Visualizar Repositorio</a>
 
+### Project 2
+
 > [Link to another page](./another-page.html).
+>
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
