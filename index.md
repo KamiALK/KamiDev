@@ -12,8 +12,6 @@ You can visually see a visual support of the backend project or go directly to c
 <a href = "https://kamialk.github.io/KamiDev/another-page.html"><img src='./images/index/spartan.jpeg' alt='spartan' style="width:70%"/></a>
 </div>
 
-<a href="https://github.com/KamiALK" class="btn" style="background-color: #000000;">Visualizar Repositorio</a>
-
 ### Chatbot Project
 
 > <a href="https://github.com/KamiALK" class="btn" style="background-color: #000000;">Visualizar Repositorio</a>
