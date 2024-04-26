@@ -12,7 +12,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 <a href="https://github.com/KamiALK" 
   class="btn" 
-  style="background-color: #808080; color: #ffffff; text-align: center"> Repositorio </a
+  style=" color: #000000; text-align: center"> Repositorio </a
 
 > ##[Link to another page](./another-page.html).
 
