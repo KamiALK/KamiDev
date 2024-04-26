@@ -6,8 +6,6 @@ Text can be **bold**, _italic_.
 
 ### Spartan Project
 
-[Link to another page](./another-page.html).
-
 The SAFB Referee Academy needed a tool to assess the referee's performance.[click on the image](./another-page.html).
 
 <div>
