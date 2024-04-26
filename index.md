@@ -10,9 +10,9 @@ You can visually see a visual support of the backend project or go directly to [
 <div >
 
 {% if site.github.is_project_page %}
-<a href="https://github.com/KamiALK" class="btn">View on GitHub</a>
+<a href="https://github.com/KamiALK" style="background-color: #278284;" class="btn">View on GitHub</a>
 
-<a href="https://www.youtube.com/channel/UCEqzSua3TC3yaQ-guATn4ag" class="btn">Youtube</a>
+<a href="https://www.youtube.com/channel/UCEqzSua3TC3yaQ-guATn4ag" style="background-color: #278284;"  class="btn">Youtube</a>
 
 {% endif %}
 
