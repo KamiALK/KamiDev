@@ -4,43 +4,22 @@ layout: default
 
 Text can be **bold**, _italic_.
 
-### Project 1
+### Spartan Project
 
 [Link to another page](./another-page.html).
 
-There should be whitespace betw1een paragraphs.
+The SAFB Referee Academy needed a tool to assess the referee's performance.[click on the image](./another-page.html).
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+<div>
+<small>Support the <strong>author</strong> to create more educational materials</small> <br />  
+<a href = "https://www.paypal.me/asabeneh"><img src='./thumbnail.png' alt='Paypal Logo' style="width:80%"/></a>
+</div>
 
 <a href="https://github.com/KamiALK" class="btn" style="background-color: #000000;">Visualizar Repositorio</a>
 
-### Project 2
+### Chatbot Project
 
-> [Link to another page](./another-page.html).
->
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 > <a href="https://github.com/KamiALK" class="btn" style="background-color: #000000;">Visualizar Repositorio</a>
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require("./lang/" + l);
-  return true;
-};
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
 
 - This is an unordered list following a header.
 - This is an unordered list following a header.
@@ -106,6 +85,7 @@ end
 <div>
 <small>Support the <strong>author</strong> to create more educational materials</small> <br />  
 <a href = "https://www.paypal.me/asabeneh"><img src='./thumbnail.png' alt='Paypal Logo' style="width:80%"/></a>
+![spartan](./images/index/spartan.jpeg) 
 </div>
 
 ### Definition lists can be used with HTML syntax.
