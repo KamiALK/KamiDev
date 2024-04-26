@@ -4,6 +4,8 @@ layout: default
 
 Text can be **bold**, _italic_.
 
+### Project 1
+
 [Link to another page](./another-page.html).
 
 There should be whitespace betw1een paragraphs.
@@ -12,8 +14,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 <a href="https://github.com/KamiALK" class="btn" style="background-color: #000000;">Visualizar Repositorio</a>
 
-##[Link to another page](./another-page.html).
-
+> [Link to another page](./another-page.html).
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
