@@ -39,13 +39,15 @@ Having Linux, I had to install other dependencies while being outside the virtua
 
 To communicate with the container, we need several pieces of information. To do this, I created a .env file with the environment variables that the backend needs to communicate with the database instance.
 
+![env](./images/spartan/env.png)
+
 To obtain the host IP, we need to execute a command where the final word is the name of the container, in my case 'db'.
+
+![db](./images/spartan/inspector.png)
 
 ```shell
 docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' db
 ```
-
-![env](./images/spartan/env.png)
 
 ## Usage:
 
