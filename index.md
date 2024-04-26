@@ -2,12 +2,15 @@
 layout: default
 ---
 
-<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-
 # kamialk Project
 
 The SAFB Referee Academy needed a tool to assess the referee's performance.
 You can visually see a visual support of the backend project or go directly to [click on the repository](https://github.com/KamiALK/spartanv2)
+
+{% if site.github.is_project_page %}
+<a href="https://github.com/KamiALK" class="btn">View on GitHub</a>
+
+<a href="https://www.youtube.com/channel/UCEqzSua3TC3yaQ-guATn4ag" class="btn">Youtube</a>
 
 <div >
 <small>click on the image</small> <br />  
