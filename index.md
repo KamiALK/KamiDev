@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### Spartan Project
+### kamialk Project
 
 The SAFB Referee Academy needed a tool to assess the referee's performance.
 You can visually see a visual support of the backend project or go directly to click on the [repository](https://github.com/KamiALK/spartanv2)
