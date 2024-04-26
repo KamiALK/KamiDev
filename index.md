@@ -10,6 +10,8 @@ There should be whitespace betw1een paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+    <a href="https://github.com/KamiALK" class="btn">View on GitHub</a>
+
 ##[Link to another page](./another-page.html).
 
 > This is a blockquote following a header.
