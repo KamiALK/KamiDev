@@ -103,6 +103,39 @@ Welcome interface
 
 ![welcome](./images/spartan/log.png)
 
+Graphical interface displaying physical and mental performance
+
+![graph](./images/spartan/240501_16h33m55s_screenshot.png)
+
+## demostration:
+
+![demo](./images/spartan/0001-0250.gif)
+
 ## MySQL:
 
 In addition, my project uses persistence volumes. It utilizes MySQL as the database.
+
+```dockerfile
+version: '3.8'
+
+services:
+  my_database:
+    image: mysql:latest
+    container_name: DB
+    environment:
+      MYSQL_DATABASE: JUGADORES
+      MYSQL_ROOT_PASSWORD: 123
+    ports:
+      - "0.0.0.0:3306:3306"
+    volumes:
+      - fastapi_db_data:/var/lib/mysql
+    networks:
+      - skainet
+
+networks:
+  skainet:
+    driver: bridge
+
+volumes:
+  fastapi_db_data:
+```
