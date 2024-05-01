@@ -62,3 +62,30 @@ $ uvicorn main:appi --reload
 ## FastAPI:
 
 FastAPI is a modern, fast, easy-to-use, and open-source web framework for building APIs with Python 3.7+ and above.Additionally, it automatically brings up the documentation in Swagger.
+
+![image](./images/spartan/evaluacion.png)
+
+## JWT:
+
+My project implements JSON Web Tokens and maintains dependency injection to ensure the security of certain routes.
+![JWT](./images/spartan/token.png)
+
+Very simple schemas for writing and reading parameters in JSON format.
+
+![schemes](./images/spartan/schemes.png)
+
+Tables created from inner joins of other tables in the database.
+
+![table](./images/spartan/inners.png)
+
+Derived from various MySQL tables.
+
+![derived](./images/spartan/mysql_tables.png)
+
+## HTML with Jinja2:
+
+My project uses Jinja2 to render HTML templates.
+
+## MySQL:
+
+In addition, my project uses persistence volumes. It utilizes MySQL as the database.
