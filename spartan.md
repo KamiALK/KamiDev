@@ -143,3 +143,5 @@ volumes:
 ## javascript:
 
 I'm a learning enthusiast and I researched how to animate charts with JS.
+
+![chart](./images/spartan/imagenes.gif)
