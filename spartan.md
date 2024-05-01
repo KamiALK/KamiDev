@@ -74,6 +74,16 @@ Very simple schemas for writing and reading parameters in JSON format.
 
 ![schemes](./images/spartan/schemes.png)
 
+## OAUTH2:
+
+Also, passwords stored with OAuth2 encryption.
+
+![oauth2](./images/spartan/jwt_1.png)
+
+Other example.
+
+![oauth2](./images/spartan/jwt_2.png)
+
 Tables created from inner joins of other tables in the database.
 
 ![table](./images/spartan/inners.png)
@@ -85,6 +95,13 @@ Derived from various MySQL tables.
 ## HTML with Jinja2:
 
 My project uses Jinja2 to render HTML templates.
+Below is a user record:
+
+![user](./images/spartan/user.png)
+
+Welcome interface
+
+![welcome](./images/spartan/log.png)
 
 ## MySQL:
 
