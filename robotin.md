@@ -75,7 +75,7 @@ retriveDayMenu = async (columnNumber = 0) => {
 
 ## write
 
-escribir en las hojas de calculo la informacion obtenida del usuario
+Writing the user-provided information into the spreadsheets.
 
 ```javascript
 saveOrder = async (data = {}) => {
@@ -92,4 +92,86 @@ saveOrder = async (data = {}) => {
 
   return order;
 };
+```
+
+## Allow flows
+
+To add the flows and make them accessible and callable through WhatsApp, they are added from this function.
+
+```javascript
+
+const main = async () => {
+  const adapterDB = new MockAdapter();
+  const adapterFlow = bot.createFlow([
+    flowPrincipal,
+    flowPedido,
+    flowPollo,
+    flowRes,
+    flowCerdo,
+    flowPescado,
+    flowProteina,
+    flowSopa,
+    flowBebida,
+    flowAcomp_a,
+    flowAcomp_b,
+    flowAcomp_c,
+
+    flowEmpty,
+  ]);
+  const adapterProvider = bot.createProvider(BaileysProvider);
+
+  bot.createBot({
+    flow: adapterFlow,
+    provider: adapterProvider,
+    database: adapterDB,
+  });
+```
+
+## flows
+
+The development of a flow that looks at the user is written in the following way.
+
+```javascript
+const flowPrincipal = bot
+  .addKeyword(["hola", "hi", "buenos dias", "buenas tardes"])
+  .addAnswer([
+    `Bienvenidos a mi restaurante de cocina economica automatizado! 🚀`,
+    `Tenemos menus diarios variados`,
+    `Te gustaria conocerlos ¿?`,
+    `Escribe *si*`,
+  ]);
+```
+
+### addkeyword
+
+The "addkeyword" function adds the keywords that trigger the flow and are sent to the user in case they write the word "hello," "order," or any other array of words desired.
+
+### addAnswer
+
+In the case of "addanswer," it can capture the user's response, or the capture can be the invocation of another flow. It can be as customizable as needed.
+
+```javascript
+
+  .addAnswer(
+    `¿Te interesa alguno marca la opcion?`,
+    { capture: true },
+    async (ctx, { gotoFlow, state }) => {
+      try {
+        const opcionSeleccionada = parseInt(ctx.body.trim()); // Convertir la opción seleccionada a un entero
+        const seleccion = GLOBAL_STATE[opcionSeleccionada - 1]; // Obtener el elemento correspondiente en GLOBAL_STATE
+        // Almacenar la selección del usuario en MENU_CLIENTE
+        MENU_CLIENTE.acomp_a.push(seleccion);
+        // Almacenar el elemento seleccionado en el estado
+        state.update({ pedido: seleccion });
+
+        GLOBAL_STATE = [];
+        // Redirigir al flujo de pedido
+        return gotoFlow(flowAcomp_b);
+      } catch (error) {
+        console.error("Ocurrió un error:", error);
+        // Redirigir al flujo principal en caso de error
+        return gotoFlow(flowPrincipal);
+      }
+    },
+  );
 ```
