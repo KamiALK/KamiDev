@@ -8,7 +8,7 @@ My curiosity led me to explore the scope of programming, and I realized it can s
 
 ![demo](./images/robotino/Screen_Recording_20240503_191426_WhatsApp.gif)
 
-## considerations
+## Considerations
 
 The basis of this project is ease of use, for which it is linked to a Google spreadsheet. This requires having an account and being able to use the Google Cloud Console.
 
@@ -48,7 +48,7 @@ class GoogleSheetService {
   }
 ```
 
-## read
+## Read
 
 A flow that captures information from the cells.
 
@@ -73,7 +73,7 @@ retriveDayMenu = async (columnNumber = 0) => {
 };
 ```
 
-## write
+## Write
 
 Writing the user-provided information into the spreadsheets.
 
@@ -127,7 +127,7 @@ const main = async () => {
   });
 ```
 
-## flows
+## Flows
 
 The development of a flow that looks at the user is written in the following way.
 
@@ -142,11 +142,11 @@ const flowPrincipal = bot
   ]);
 ```
 
-### addkeyword
+### Addkeyword
 
 The "addkeyword" function adds the keywords that trigger the flow and are sent to the user in case they write the word "hello," "order," or any other array of words desired.
 
-### addAnswer
+### AddAnswer
 
 In the case of "addanswer," it can capture the user's response, or the capture can be the invocation of another flow. It can be as customizable as needed.
 
@@ -176,7 +176,7 @@ In the case of "addanswer," it can capture the user's response, or the capture c
   );
 ```
 
-## interactive
+## Interactive
 
 In this project, the advantage is that there's no need to restart the project instance to implement changes. Since it's listening to the spreadsheet in real-time, you just need to return to the main flow.
 
