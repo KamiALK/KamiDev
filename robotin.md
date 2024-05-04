@@ -175,3 +175,24 @@ In the case of "addanswer," it can capture the user's response, or the capture c
     },
   );
 ```
+
+## interactive
+
+In this project, the advantage is that there's no need to restart the project instance to implement changes. Since it's listening to the spreadsheet in real-time, you just need to return to the main flow.
+
+## Deploy
+
+The project can be deployed in a Docker instance.
+
+```Dockerfile
+
+FROM node:18-bullseye as bot
+WORKDIR /app
+COPY package*.json ./
+RUN npm i
+COPY . .
+ARG RAILWAY_STATIC_URL
+ARG PUBLIC_URL
+ARG PORT
+CMD ["npm", "start"]
+```
