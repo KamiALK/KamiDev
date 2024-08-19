@@ -145,4 +145,5 @@ volumes:
 I'm a learning enthusiast and I researched how to animate charts with JS.
 
 ![chart](./images/spartan/imagenes.gif)
-![chart](./images/spartan/christian.pdf)
+[PDF](./images/spartan/christian.pdf)
+<embed src="./images/spartan/christian.pdf" type="application/pdf" width="600" height="400">
