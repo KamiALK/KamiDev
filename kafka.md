@@ -2,6 +2,7 @@
 layout: default
 ---
 
-errores sin arreglar:
 
 ## Introduction
+
+errores sin arreglar

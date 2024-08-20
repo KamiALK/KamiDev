@@ -38,9 +38,9 @@ Small WhatsApp chatbot to automate orders using Google Sheets API connection wit
 
 In this project, various technologies come together, including the well-known message broker Kafka, along with three backend projects:
 
-    A video and music server called Plex, deployed using Docker.
-    A WhatsApp bot that sends and receives messages through Kafka.
-    A Python project that downloads YouTube videos and organizes them into playlists on a homemade VPS.
+- A video and music server called Plex, deployed using Docker.
+- A WhatsApp bot that sends and receives messages through Kafka.
+- A Python project that downloads YouTube videos and organizes them into playlists on a homemade VPS.
 
 Additionally, we have a feature where one backend bot can control the behavior of another backend, written in a different language, through Kafka. There's also another bot, a homemade LLM using Ollama Phi 3, which is still under development, designed to answer specific documentation queries.
 
