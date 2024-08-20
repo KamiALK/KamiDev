@@ -196,3 +196,7 @@ ARG PUBLIC_URL
 ARG PORT
 CMD ["npm", "start"]
 ```
+
+## Curriculum
+
+<embed src="./docus/Andres_Camilo_Almanza_Casteblanco.pdf" type="application/pdf" width="600" height="400">
