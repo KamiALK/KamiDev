@@ -47,9 +47,9 @@ Additionally, we have a feature where one backend bot can control the behavior o
 <div >
 
 {% if site.github.is_project_page %}
-<a href="https://kamialk.github.io/KamiDev/spartan.html" style="background-color: #278284;" class="btn">Documentation</a>
+<a href="https://kamialk.github.io/KamiDev/kafka.html" style="background-color: #278284;" class="btn">Documentation</a>
 
-<a href="https://github.com/KamiALK/spartanv2" style="background-color: #278284;"  class="btn">View Code</a>
+<a href="https://github.com/KamiALK/kafka" style="background-color: #278284;"  class="btn">View Code</a>
 
 {% endif %}
 
