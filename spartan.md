@@ -4,6 +4,8 @@ layout: default
 
 ## Introduction
 
+![demo](./images/spartan/0001-0250.gif)
+
 Given that the majority of servers run on Linux, we'll be programming using Linux and utilizing an environment compatible with Linux.
 The first step is to verify that Python is installed.
 
