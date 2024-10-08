@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Spartan Project
+# Backend python
 
 The SAFB Referee Academy needed a tool to assess the referee's performance.
 You can visually see a visual support of the backend project or go directly to [click on code](https://github.com/KamiALK/spartanv2)
@@ -20,7 +20,7 @@ You can visually see a visual support of the backend project or go directly to [
 <!-- <a href = "https://kamialk.github.io/KamiDev/another-page.html"><img src='./images/index/spartan.jpeg' alt='spartan' style="width:70%"/></a> -->
 </div>
 
-# Robotin Project
+# Bot whatsapp javascript
 
 Small WhatsApp chatbot to automate orders using Google Sheets API connection with real-time customizable menu.The SAFB Referee Academy needed a tool to assess the referee's performance.
 
